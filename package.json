@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "threadsforslack-app",
+  "version": "1.0.0",
+  "description": "Threads for Slack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "lint": "eslint --fix \"**/*.{js}\"",
+    "vercel": "vercel"
+  },
+  "author": "Tom Spencer <tom@studiozeffa.com>",
+  "devDependencies": {
+    "@types/node": "^12.19.9",
+    "@vercel/node": "^1.8.5",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3",
+    "vercel": "^21.0.1"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

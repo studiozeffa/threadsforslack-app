@@ -1,0 +1,9 @@
+{
+  "github": {
+    "enabled": false
+  },
+  "routes": [
+    { "src": "/slack/events", "dest": "/api/slack/events" },
+    { "src": "/(.*)", "status": 404, "dest": "/pages/404.html" }
+  ]
+}
